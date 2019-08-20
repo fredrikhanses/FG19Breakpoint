@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880478a7d21487b409125e23cea1169b, type: 3}
+  m_Name: WeakBrickBrush 1
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7747272389905208756, guid: 661616d305d29524aac3a189ba29f1b1, type: 3}
+  zPosition: 0

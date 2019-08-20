@@ -6,6 +6,6 @@ PhysicsMaterial2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Physics Material 2D
-  friction: 2.08
-  bounciness: 2.68
+  m_Name: PMAT_NormalBall
+  friction: 0
+  bounciness: 1
