@@ -7,7 +7,7 @@ public class Star : MonoBehaviour
 {
     [SerializeField] private Sprite normalMouth = null;
     [SerializeField] private Sprite worriedMouth = null;
-    public LayerMask reacToLayer;
+    public LayerMask reactToLayer;
 
     private CircleCollider2D awareness;
     private SpriteRenderer mouth;
@@ -21,17 +21,17 @@ public class Star : MonoBehaviour
         awareness = GetComponent<CircleCollider2D>();
 
         Transform go = transform.Find("LeftEye/Pupil");
-        Assert.IsNotNull(go, "Failed to lacate child \"LeftEye/Pupil\".");
+        Assert.IsNotNull(go, "Failed to locate child \"LeftEye/Pupil\".");
         leftEye = go.GetComponent<LookAtTarget>();
         Assert.IsNotNull(leftEye, "Failed to locate Look at mouse component.");
 
         go = transform.Find("RightEye/Pupil");
-        Assert.IsNotNull(go, "Failed to lacate child \"RightEye/Pupil\".");
+        Assert.IsNotNull(go, "Failed to locate child \"RightEye/Pupil\".");
         rightEye = go.GetComponent<LookAtTarget>();
         Assert.IsNotNull(rightEye, "Failed to locate Look at mouse component.");
 
         go = transform.Find("Mouth");
-        Assert.IsNotNull(go, "Failed to lacate child \"Mouth\".");
+        Assert.IsNotNull(go, "Failed to locate child \"Mouth\".");
         mouth = go.GetComponent<SpriteRenderer>();
         Assert.IsNotNull(mouth, "Failed to locate SpriteRenderer component on mouse.");
     }
